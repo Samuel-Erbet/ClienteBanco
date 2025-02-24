@@ -133,6 +133,8 @@ uma mensagem ao usuário
         
         /* criacao de um loop que vai mostrar opcoes ao usuario e pedir pra ele inserir um valor
            o loop terminará assim que o usuário digitar 4
+           alem de analisar o valor que o usuario digitou for de fato um numero caso contrario ele dara um erro,
+           pedindo para o usuario inserir outro numero
         */
           
          
@@ -185,6 +187,6 @@ uma mensagem ao usuário
         4 encerra e execução do código e mostra uma mensagem de agradecimento
         */
         
-       
+        scanner.close();
     }
 }
